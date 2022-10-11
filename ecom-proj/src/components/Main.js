@@ -21,7 +21,7 @@ const Main = ()=> {
   return (
     <div>
         
-        <button onClick={()=>dispatch(emptyCart())}>Empty Cart</button>
+        <button className='Empty-cart' onClick={()=>dispatch(emptyCart())}>Empty Cart</button>
         
         <div className='productContainer'>
         {

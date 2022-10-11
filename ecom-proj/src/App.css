@@ -48,6 +48,9 @@ img{
   flex-wrap: wrap;
 }
 
+.cart-div{
+  position: relative;
+}
 .cart-page-container{
   display: flex;
   justify-content: space-around;
@@ -90,10 +93,17 @@ img{
 }
 .spani{
   position: absolute;
-  top: 1em;
-  right:1em;
-  background-color: green;
+  top: -0.7em;
+  right: 0.6em;
+  color: black;
+  font-size: 2em;
+  width: 8px;
   
+}
+
+.bi-cart{
+  height: 35px;
+  width: 23px;
 }
 
 .App-link {
@@ -114,6 +124,11 @@ img{
   justify-content: space-between;
 }
 
+.Empty-cart{
+  font-size: 3vh;
+  margin-left: 15vh;
+}
+
 .imageContainer{
   margin-bottom: 126px;
   flex:75%;
@@ -123,6 +138,23 @@ img{
   flex:25%;
 }
 
+@media only screen and (max-width:528px){
+  .Header{
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 142%;
+  }
+  .productContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+  }
+  .search-box{
+    padding:20px;
+  }
+}
 
 @keyframes App-logo-spin {
   from {
