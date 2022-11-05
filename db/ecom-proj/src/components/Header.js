@@ -6,7 +6,7 @@ import { searchProduct } from '../Redux/productAction';
 const Header = ()=> {
   const cartData = useSelector((state)=>state.cartData);
   const dispatch = useDispatch();
-  console.warn(`This is cartdata`,cartData);
+  //console.warn(`This is cartdata`,cartData);
   return (
     <div className='Header'>
       <Link to='/'><h1 className='LogoHeader'>E-Comm</h1></Link>

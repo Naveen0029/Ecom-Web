@@ -5,7 +5,6 @@ import Main from './components/Main'
 import {Routes,Route} from 'react-router-dom';
 import Cart from './components/Cart';
 
-console.log('i am app');
 function App() {
   return (
     <div className="App">

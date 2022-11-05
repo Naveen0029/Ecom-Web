@@ -6,7 +6,7 @@ import { productList } from '../Redux/productAction';
 const Main = ()=> {
     const dispatch = useDispatch();
      const productListData = useSelector((state)=>state.productData);
-     console.log('in main',productListData);
+     //console.log('in main',productListData);
     const product = {
         name: 'i phone',
         category: 'mobile',

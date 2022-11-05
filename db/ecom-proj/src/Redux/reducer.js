@@ -1,6 +1,6 @@
 import { ADD_TO_CART, EMPTY_CART, REMOVE_TO_CART } from "./constant";
 export const cartData = (data=[],action) =>{
-    console.warn('reducer me',action.data);
+    //console.warn('reducer me',action.data);
     switch(action.type){
         case ADD_TO_CART:
             console.warn('ADD TO_CART CONDITION',action)
