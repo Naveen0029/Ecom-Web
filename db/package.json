@@ -4,6 +4,7 @@
   "description": "Ecom Backend",
   "main": "index.js",
   "scripts": {
+    "start": "NODE_ENV=production node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=development nodemon index.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix ecom-proj --force && npm run build --prefix ecom-proj --force"
